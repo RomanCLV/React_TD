@@ -106,6 +106,7 @@ import Score from './Score';
     }
 
     render(){
+        console.log("props : ", this.props)
         return(
             <div>
                 { this.timeToPlay() }
